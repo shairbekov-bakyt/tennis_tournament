@@ -1,0 +1,10 @@
+.main_table{
+    margin-top: 25px;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.main_th{
+    padding: 10px 30px;
+}
