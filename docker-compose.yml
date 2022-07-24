@@ -3,6 +3,7 @@ version: "3.9"
 services:
 
   backend:
+    container_name: backend
     build: 
       context: ./server
     ports:
