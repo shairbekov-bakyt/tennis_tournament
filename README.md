@@ -18,13 +18,13 @@ $ sudo docker-compose up -d  --build
 # Instruction
 - migrations :
 ```
-$ docker-compose exec web python3 manage.py makemigrations
+$ docker-compose exec backend python3 manage.py makemigrations
 ```
 - migrate :
 ```
-$ docker-compose exec web python3 manage.py migrate
+$ docker-compose exec backend python3 manage.py migrate
 ```
 - create admin user:
 ```
-$ docker-compose exec web python3 manage.py createsuperuser
+$ docker-compose exec backend python3 manage.py createsuperuser
 ```
