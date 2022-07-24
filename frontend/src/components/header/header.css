@@ -1,9 +1,0 @@
-.navbar{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-.navbar__link{
-    text-transform: uppercase;
-}
